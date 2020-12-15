@@ -40,9 +40,9 @@ public class Address {
     }
 
     public static void main(String[] args) {
-        Address address = new Address("   Россия, 77, Москва, Дубнинская, 45, 1, 306  ");
+        Address address = new Address("   Россия, 77, Питер, дыбенко, 13, 5, 231  ");
         System.out.println(address);
-        address = new Address("   Россия, 77.Москва; Дубнинская-45-1, 306    ");
+        address = new Address("   Россия, 77.Питер; Дцбенко-13-5, 231    ");
         System.out.println(address);
         }
 }

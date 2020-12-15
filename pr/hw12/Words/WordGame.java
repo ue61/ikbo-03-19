@@ -6,7 +6,7 @@ import java.nio.file.Paths;
 
 public class WordGame {
     public static void main(String[] args) {
-        final String FILENAME = "src/ru/mirea/LESSON_12/PRACTIK/Words/" + args[0];
+        final String FILENAME = "src/com/company/hw12/Words/" + args[0];
 
         try {
             String words = new String(Files.readAllBytes(Paths.get(FILENAME)));

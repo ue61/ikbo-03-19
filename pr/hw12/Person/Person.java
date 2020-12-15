@@ -25,7 +25,7 @@ public class Person {
     public static void main(String[] args) {
         Person people = new Person("Иванов", "Иван", "Иванович");
         System.out.println(people.toString());
-        Person people1 = new Person("Третьяков");
+        Person people1 = new Person("Бобер");
         System.out.println(people1.toString());
     }
 
